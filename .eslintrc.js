@@ -23,16 +23,15 @@ module.exports = {
         "project": "./tsconfig.json"
     },
     "rules": {
+ 
+        "@typescript-eslint/no-extraneous-class": "off",
+        "@typescript-eslint/strict-boolean-expressions": "off"
     },
 
     "ignorePatterns": [
         "dist",
         "node_modules",
-    ],
-
-    "include": [
-        "test/**/*.ts",
         ".eslintrc.js"
     ],
-    
+
 }
