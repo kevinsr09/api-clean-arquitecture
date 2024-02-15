@@ -14,6 +14,7 @@ export class AuthRoutes {
     router.get('/login', authController.login.bind(authController))
     router.post('/register', authController.register.bind(authController))
 
+    router.get('/users', authController.getUsers.bind(authController))
     return router
   }
 }
